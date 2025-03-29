@@ -2,15 +2,15 @@ Problem Statement:
 -------------------
 Your task is to design a program that processes the given data and produces a single output. 
 The output should be a **summary of customer activity** based on the data provided.
-There are multiple ways to approach this task, but there’s **one correct output**.
+There are multiple ways to approach this task, but there’s one correct output.
 The winning team is the one who submits 
 
 Objective: 
 ----------
-Design a program that outputs the **total number of unique customers** who made purchases over a certain threshold 
-and the **total amount of money spent** by these customers.
+Design a program that outputs the total number of unique customers who made purchases over a certain threshold 
+and the total amount of money spent by these customers.
 
-The **fake data** you will work with consists of transactions, and you need to:
+The fake data you will work with consists of transactions, and you need to:
 - Identify the unique customers.
 - Calculate the total amount spent by all those customers who made a purchase greater than a specified threshold (answer should be a single number).
 
@@ -18,7 +18,7 @@ The **fake data** you will work with consists of transactions, and you need to:
 
 Fake Data:
 -----------
-Here is the **fake transaction data** (for customers making purchases):
+Here is the fake transaction data (for customers making purchases):
 
 CustomerID, TransactionAmount, TransactionDate
 C001, 120.00, 2024-03-01
@@ -42,14 +42,14 @@ C002, 250.00, 2024-03-05
 Instructions:
 -------------
 1. Filter the transactions: 
-   - Only consider customers whose **individual transaction** amount is greater than **$100**.
+   - Only consider customers whose **individual transaction** amount is greater than $100.
    
 2. Track unique customers: 
-   - You must **track** and only count customers who have made at least **one transaction greater than $100**.
+   - You must track and only count customers who have made at least one transaction greater than $100.
 
 3. Output Format:
-   - **Total number of unique customers** who made at least one purchase greater than $100.
-   - **Total amount spent** by those unique customers (sum of all their transactions).
+   - Total number of unique customers who made at least one purchase greater than $100.
+   - Total amount spent by those unique customers (sum of all their transactions).
 
 ---
 
@@ -66,15 +66,17 @@ Things to Consider:
 -------------------
 - Your solution should be flexible, allowing easy modifications if the dataset changes.
 - Multiple approaches can be taken, make sure to brainstorm the best solution that matches your team's strengths before implementing
-- The first team to get the correct answer for unique customers and $$ spent will recieve bonus points, but the winning team is the team with the best implementation.
+- The first team to get the correct answer for unique customers and $$ spent will recieve bonus points, but the winning team is the team 
+  with the best implementation.
 
 ---
 
 Judging Criteria:
 -----------------
-- **Speed**: Did you get your solution to the judges in an effective time manner?
-- **Correctness**: Does the program produce the right output?
-- **Efficiency**: How well does your solution handle this data? Is it scalable to larger datasets?
+- Correctness: Does the program produce the right output?
+- Efficiency: How well does your solution handle this data? Is it scalable to larger datasets?
+- Speed: Did you get your solution to the judges in an effective time manner?
+   - ** First team to submit the right answers will recieve bonus points
 
 ---
 
