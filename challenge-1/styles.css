@@ -36,6 +36,7 @@ button {
     border-radius: 5px;
 }
 
-button:hover {
+/* b.o.n.u.s: the first group to sing California Gurls out loud gets */
+button:hover { 
     background: #0056b3;
 }
