@@ -12,5 +12,5 @@ You are given the following information:
 Question:
     • How many generalists and specialists should be employed to handle the 50/50 call split efficiently?
 
-80 specialists should be the most efficient since they can handle both sales and support calls and they complete more calls per dollar.
+100 generalists to handle the 1000 sales calls per hour and 40 specialists to handle the 1000 support calls per hour.
 
