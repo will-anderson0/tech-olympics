@@ -1,23 +1,24 @@
-Problem Statement:
--------------------
-Your task is to design a program that processes the given data and produces a single output. 
+## Problem Statement:
+
+Your task is to design a program that processes the given data and produces a single output.
 The output should be a summary of customer activity based on the data provided.
 There are multiple ways to approach this task, but there’s one correct output.
-The winning team is the one who submits 
+The winning team is the one who submits
 
-Objective: 
-----------
-Design a program that outputs the total number of unique customers who made purchases over a certain threshold 
+## Objective:
+
+Design a program that outputs the total number of unique customers who made purchases over a certain threshold
 and the total amount of money spent by these customers.
 
 The fake data you will work with consists of transactions, and you need to:
+
 - Identify the unique customers.
 - Calculate the total amount spent by all those customers who made a purchase greater than a specified threshold (answer should be a single number).
 
 ---
 
-Fake Data:
------------
+## Fake Data:
+
 Here is the fake transaction data (for customers making purchases):
 
 CustomerName, CustomerID, TransactionAmount, TransactionDate
@@ -46,12 +47,12 @@ Liz, C021, 80.00, 2024-03-10
 
 ---
 
-Instructions:
--------------
-1. Filter the transactions: 
+## Instructions:
+
+1. Filter the transactions:
    - Only consider customers whose **individual transaction** amount is greater than $100.
-   
-2. Track unique customers: 
+2. Track unique customers:
+
    - You must track and only count customers who have made at least one transaction greater than $100.
 
 3. Output Format:
@@ -60,35 +61,34 @@ Instructions:
 
 ---
 
-Example Output:
----------------
+## Example Output:
+
 For the provided fake data, you will produce a summary like this (based on the data given):
 
-Unique Customers: _____
-Total Money Spent: _____
+Unique Customers: **\_**
+Total Money Spent: **\_**
 
 ---
 
-Things to Consider:
--------------------
+## Things to Consider:
+
 - Your solution should be flexible, allowing easy modifications if the dataset changes.
 - Multiple approaches can be taken, make sure to brainstorm the best solution that matches your team's strengths before implementing
-- The first and second teams to get the correct answer for unique customers and $$ spent will recieve bonus points, but the winning team is the team 
+- The first and second teams to get the correct answer for unique customers and $$ spent will recieve bonus points, but the winning team is the team
   with the best implementation.
 
 ---
 
-Judging Criteria:
------------------
+## Judging Criteria:
+
 - Correctness: Does the program produce the right output?
 - Efficiency: How well does your solution handle this data? Is it scalable to larger datasets?
 - Speed: Did you get your solution to the judges in an effective time manner?
-   - ** First team to submit the right answers will recieve bonus points
+  - \*\* First team to submit the right answers will recieve bonus points
 
 ---
 
 Good luck! Please call a judge over if you have any questions on the problem or instructions!
-
 
 BO-NUS: build this puzzle and add a screenshot of it completed
 https://www.jigsawplanet.com/?rc=play&pid=37e2c82ba161
