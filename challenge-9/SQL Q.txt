@@ -6,4 +6,14 @@ Question: A particular creator is looking for some short audio clips that are dr
 
 Part One: Construct a Relational Algebra query
 
+πTrackId,Name,Milliseconds(σGenre.Name=′Dramatic′∨Genre.Name=`Suspenseful′(σPlaylist.Name=′Quickclips ′(Playlist⋈PlaylistTrack⋈Track⋈Genre)))
+
 Part Two: Construct a SQL query 
+
+SELECT t.TrackId, t.Name, t.Milliseconds
+FROM Track t
+JOIN PlaylistTrack pt ON t.TrackId = pt.TrackId
+JOIN Playlist p ON pt.PlaylistId = p.PlaylistId
+JOIN Genre g ON t.GenreId = g.GenreId
+WHERE p.Name = 'Quick clips'
+AND (g.Name = 'Dramatic' OR g.Name = 'Suspenseful');
