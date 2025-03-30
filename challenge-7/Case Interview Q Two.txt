@@ -14,3 +14,5 @@ You are given the following information:
 Question:
     • How many generalists and specialists should be employed for each of the two possible call distributions?
 
+Same answer as part one, since specialists complete more calls per dollar.
+
