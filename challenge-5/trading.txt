@@ -4,3 +4,8 @@ and an ask (sell) price. If your goal is to make a profit
 from the spread while minimizing risk, how would you set your 
 bid and ask prices?
 
+We should set the bid price at 99.95 and ask price at 
+100.05 which creates a narrow $0.10 spread that balances profit potential 
+with risk management. This pricing strategy allows for consistent 
+profits on each trade while remaining competitive enough 
+to attract sufficient trading volume
