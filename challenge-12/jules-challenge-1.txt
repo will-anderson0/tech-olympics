@@ -7,4 +7,11 @@ f = {10 : 3, 20 : 5, 30 : 2, 40 : 7, 50 : 1}
 
 What is the optimal BST structure that minimizes the weighted search cost?
 
+   20
+  /  \
+10   40
+    /  \
+  30   50
+
 Bonus: How does dynamic programming help solve this problem efficiently?
+Dynamic programming helps solve this problem by breaking it into smaller, overlapping solutions and enables storing results of these subproblems in a table to avoid redundant calculations.
